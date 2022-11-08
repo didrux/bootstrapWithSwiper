@@ -121,10 +121,34 @@ body {
   max-width: 600px;
 }
 
-.swiper-button-next {
+.swiperInFirstModal {
+  max-width: 300px;
+}
+
+.swiper .swiper-button-next {
   top: 27% !important;
 }
 
-.swiper-button-prev {
+.swiper .swiper-button-prev {
   top: 27% !important;
+}
+
+.modal-content {
+  min-width: 0;
+}
+
+.modal-dialog {
+  overflow: hidden;
+}
+
+.swiperInFirstModal .swiper-wrapper {
+  align-items: center;
+}
+
+.header a {
+  background-color: #ddc3a5;
+}
+
+.header .btn-outline-secondary {
+  color: white;
 }
