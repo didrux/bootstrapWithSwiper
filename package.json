@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.1"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
